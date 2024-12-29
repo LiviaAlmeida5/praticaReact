@@ -1,0 +1,140 @@
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(./imgs/imagem-fundo.jpg);
+  padding: 0px;
+  margin: 0px;
+}
+
+input{
+  height: 35px;
+  border-radius: 35px;
+  box-shadow: 0px 4px 4px 0px;
+  padding-inline: 13px;
+  margin-bottom: 8px;
+}
+
+.top{
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  width: 200px;
+  height: 100%;
+  background-color: rgb(223, 162, 195);
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+}
+
+.barra{
+  height: 100%;
+  width: 10px;
+  background-color: black;
+}
+
+.cab{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input{
+  position: absolute;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.outra-barra{
+  width: 100%;
+  height: 10px;
+  background-color: black;
+}
+
+.todos-contents{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todos{
+  width: 80%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.todo-block{
+  width: 250px;
+  height: 300px;
+  border-radius: 16px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-block{
+  width: 100%;
+  height: 20%;
+  border-radius: 15px;
+  background-color: rgb(223, 162, 195);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: rgb(243, 157, 183);
+}
+
+.gridTodos{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.seta{
+  height: 25px;
+  background-color: rgb(204, 167, 167);
+}
+
+.rodape{
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+  width: 100px;
+  height: 50px;
+  background-image: url(./imgs/imagem-emakers.png);
+  background-size: cover;
+  margin-top: -25px;
+}
+
+#butaoInput{
+  width:170px;
+  height: 40px;
+  border-radius: 35px;
+  background-color: whitesmoke;
+  color: black;
+}
